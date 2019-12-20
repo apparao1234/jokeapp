@@ -16,6 +16,7 @@ public class JokeController {
 	
 	@RequestMapping({"/",""})
     public String getJokesView(Model model) {
+		//maping of model and view with content
 		model.addAttribute("joke",jokeService.getJoke());
 		return "checknorris"; //it is view name
     }
