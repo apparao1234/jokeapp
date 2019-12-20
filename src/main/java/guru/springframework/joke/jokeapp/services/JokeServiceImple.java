@@ -15,6 +15,7 @@ public class JokeServiceImple  implements JokeService{
 		this.chuckNorrisQuotes = chuckNorrisQuotes;
 		
 		
+		
 	}
 	
 	public String getJoke() {
