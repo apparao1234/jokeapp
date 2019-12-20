@@ -12,6 +12,7 @@ public class ChunkConfiguration {
 	public ChuckNorrisQuotes chuckNorrisQuotes() {
 		return  new ChuckNorrisQuotes();
 		
+		
 	}
 
 }
