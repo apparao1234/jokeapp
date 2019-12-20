@@ -12,9 +12,6 @@ public class JokeController {
 	
 	public JokeController(JokeService jokeService) {
 		this.jokeService =jokeService;
-		
-		
-		
 	}
 	
 	@RequestMapping({"/",""})

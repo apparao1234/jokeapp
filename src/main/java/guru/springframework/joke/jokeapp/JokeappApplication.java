@@ -9,10 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class JokeappApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JokeappApplication.class, args);
-		
-		
-		
+		SpringApplication.run(JokeappApplication.class, args);		
 	}
 
 }

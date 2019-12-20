@@ -10,10 +10,7 @@ public class ChunkConfiguration {
 	
 	@Bean
 	public ChuckNorrisQuotes chuckNorrisQuotes() {
-		return  new ChuckNorrisQuotes();
-		
-	
-		
+		return  new ChuckNorrisQuotes();		
 	}
 
 }
