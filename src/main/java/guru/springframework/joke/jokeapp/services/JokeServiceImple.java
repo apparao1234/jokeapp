@@ -13,6 +13,7 @@ public class JokeServiceImple  implements JokeService{
 	@Autowired
 	public JokeServiceImple(ChuckNorrisQuotes chuckNorrisQuotes ) {
 		this.chuckNorrisQuotes = chuckNorrisQuotes;
+		
 	}
 	
 	public String getJoke() {
